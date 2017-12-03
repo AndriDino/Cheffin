@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="KGk-i7-Jjw" customClass="RecipeCell" customModule="Cheffin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SXo-eK-uu6">
+                        <rect key="frame" x="0.0" y="-1" width="320" height="148"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rosemary Potatoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Put-dZ-RqZ">
+                        <rect key="frame" x="8" y="91" width="132" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98r-IQ-yA9">
+                        <rect key="frame" x="8" y="108" width="283" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="Oau-Vd-a8G"/>
+                        </constraints>
+                        <string key="text">Lightly crisped, cherry potatoes with 
+rosemary seasoning</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIV-ip-EAa">
+                        <rect key="frame" x="270" y="91" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="6QQ-DE-enx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SXo-eK-uu6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="52a-DT-Cgk"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Put-dZ-RqZ" secondAttribute="bottom" constant="27.5" id="9WM-3h-Lu9"/>
+                    <constraint firstItem="hIV-ip-EAa" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ApX-sc-pnY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="98r-IQ-yA9" secondAttribute="trailing" constant="21" id="FlL-Ru-Nxv"/>
+                    <constraint firstItem="Put-dZ-RqZ" firstAttribute="top" secondItem="hIV-ip-EAa" secondAttribute="top" id="Jkv-FU-zqH"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="98r-IQ-yA9" secondAttribute="bottom" constant="-2.5" id="VZO-kt-EdF"/>
+                    <constraint firstItem="Put-dZ-RqZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="YyW-Pj-dfc"/>
+                    <constraint firstItem="Put-dZ-RqZ" firstAttribute="bottom" secondItem="hIV-ip-EAa" secondAttribute="bottom" id="bJp-mA-hyt"/>
+                    <constraint firstItem="SXo-eK-uu6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="df2-Ut-XnR"/>
+                    <constraint firstItem="Put-dZ-RqZ" firstAttribute="leading" secondItem="98r-IQ-yA9" secondAttribute="leading" id="gsH-mG-IAe"/>
+                    <constraint firstItem="Put-dZ-RqZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="83" id="hy5-Cj-Ncn"/>
+                    <constraint firstItem="SXo-eK-uu6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-9" id="jfn-5D-HUm"/>
+                    <constraint firstAttribute="trailing" secondItem="SXo-eK-uu6" secondAttribute="trailing" id="xsB-0x-x5c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="34" y="2"/>
+        </tableViewCell>
+    </objects>
+</document>
