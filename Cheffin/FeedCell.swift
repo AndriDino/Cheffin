@@ -1,29 +1,25 @@
 //
-//  RecipeCell.swift
+//  FeedCell.swift
 //  Cheffin
 //
-//  Created by Dino Andrighetto on 12/3/17.
+//  Created by Dino Andrighetto on 12/4/17.
 //  Copyright © 2017 Dino Andrighetto. All rights reserved.
 //
 
 import UIKit
 
-class RecipeCell: UITableViewCell {
-    
+class FeedCell: UITableViewCell {
     @IBOutlet weak var mainPhoto: UIImageView!
-    @IBOutlet weak var nameTitle: UILabel!
+    @IBOutlet weak var recipeTitle: UILabel!
     @IBOutlet weak var aboutRecipe: UILabel!
-    @IBOutlet weak var timeAmount: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
+    
 }

@@ -75,6 +75,12 @@ rosemary seasoning</string>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aboutRecipe" destination="98r-IQ-yA9" id="fss-D1-lVy"/>
+                <outlet property="mainPhoto" destination="SXo-eK-uu6" id="zZp-uP-K67"/>
+                <outlet property="nameTitle" destination="Put-dZ-RqZ" id="v6Y-vI-qLr"/>
+                <outlet property="timeAmount" destination="hIV-ip-EAa" id="Zgw-Wo-WsN"/>
+            </connections>
             <point key="canvasLocation" x="34" y="2"/>
         </tableViewCell>
     </objects>

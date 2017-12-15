@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FeedCell" customModule="Cheffin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-5d-zCe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMQ-kc-wvu">
+                        <rect key="frame" x="8" y="107" width="283" height="32"/>
+                        <string key="text">Lightly crisped, cherry potatoes with 
+rosemary seasoning</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rosemary Potatoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJd-oX-cVK">
+                        <rect key="frame" x="8" y="87" width="132" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTD-He-oi7">
+                        <rect key="frame" x="270" y="87" width="36" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="ZYK-eU-44F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="aMQ-kc-wvu" secondAttribute="trailing" constant="21" id="BSi-Ps-xGP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lJd-oX-cVK" secondAttribute="bottom" constant="31.5" id="C4l-4n-z42"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aMQ-kc-wvu" secondAttribute="bottom" constant="0.5" id="Ef1-pv-BcK"/>
+                    <constraint firstItem="6r1-5d-zCe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P4O-bP-qTp"/>
+                    <constraint firstItem="lJd-oX-cVK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="79" id="Rss-S7-wPM"/>
+                    <constraint firstItem="6r1-5d-zCe" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="g6S-Se-Inr"/>
+                    <constraint firstItem="lJd-oX-cVK" firstAttribute="bottom" secondItem="lTD-He-oi7" secondAttribute="bottom" id="oMD-g6-pxH"/>
+                    <constraint firstAttribute="trailing" secondItem="6r1-5d-zCe" secondAttribute="trailing" id="obA-Rv-RAM"/>
+                    <constraint firstItem="aMQ-kc-wvu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="99" id="ptL-r3-Vq8"/>
+                    <constraint firstItem="6r1-5d-zCe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="s94-Q4-ueR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lTD-He-oi7" secondAttribute="trailing" constant="6" id="uwP-2b-qCG"/>
+                    <constraint firstItem="lJd-oX-cVK" firstAttribute="top" secondItem="lTD-He-oi7" secondAttribute="top" id="wgX-nM-cGu"/>
+                    <constraint firstItem="lJd-oX-cVK" firstAttribute="leading" secondItem="aMQ-kc-wvu" secondAttribute="leading" id="xFn-DZ-qK4"/>
+                    <constraint firstItem="lJd-oX-cVK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xxx-V7-1UE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aboutRecipe" destination="aMQ-kc-wvu" id="6zi-Qh-5Xj"/>
+                <outlet property="mainPhoto" destination="6r1-5d-zCe" id="clw-I0-Wxh"/>
+                <outlet property="recipeTitle" destination="lJd-oX-cVK" id="04N-D8-EM0"/>
+                <outlet property="timeLabel" destination="lTD-He-oi7" id="fHo-Lj-AG4"/>
+            </connections>
+        </tableViewCell>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rosemary Potatoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dP0-8U-kHT">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+</document>
