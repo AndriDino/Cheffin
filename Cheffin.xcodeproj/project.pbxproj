@@ -16,6 +16,8 @@
 		F50DA05C1FD3EF61006B7C92 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA05B1FD3EF61006B7C92 /* RecipeCell.swift */; };
 		F50DA06C1FD66549006B7C92 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA06B1FD66549006B7C92 /* Recipe.swift */; };
 		F50DA06E1FD66578006B7C92 /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DA06D1FD66578006B7C92 /* RecipeManager.swift */; };
+		F5206E201FE51B7900744961 /* RecipePgData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5206E1F1FE51B7900744961 /* RecipePgData.swift */; };
+		F5206E221FE51B9D00744961 /* RecipeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5206E211FE51B9D00744961 /* RecipeDataManager.swift */; };
 		F53225FE1FDF980C002DC3CC /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53225FD1FDF980C002DC3CC /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		F50DA05B1FD3EF61006B7C92 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		F50DA06B1FD66549006B7C92 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		F50DA06D1FD66578006B7C92 /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		F5206E1F1FE51B7900744961 /* RecipePgData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePgData.swift; sourceTree = "<group>"; };
+		F5206E211FE51B9D00744961 /* RecipeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDataManager.swift; sourceTree = "<group>"; };
 		F53225FD1FDF980C002DC3CC /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,8 @@
 				F50DA05B1FD3EF61006B7C92 /* RecipeCell.swift */,
 				F50DA0551FCD2A29006B7C92 /* HomeTableViewController.swift */,
 				F53225FD1FDF980C002DC3CC /* RecipeViewController.swift */,
+				F5206E1F1FE51B7900744961 /* RecipePgData.swift */,
+				F5206E211FE51B9D00744961 /* RecipeDataManager.swift */,
 				F50DA03E1FCD1E98006B7C92 /* AppDelegate.swift */,
 				F50DA04D1FCD1E98006B7C92 /* Info.plist */,
 				F50DA0451FCD1E98006B7C92 /* Cheffin.xcdatamodeld */,
@@ -153,10 +159,12 @@
 			files = (
 				F50DA0561FCD2A29006B7C92 /* HomeTableViewController.swift in Sources */,
 				F50DA0471FCD1E98006B7C92 /* Cheffin.xcdatamodeld in Sources */,
+				F5206E221FE51B9D00744961 /* RecipeDataManager.swift in Sources */,
 				F53225FE1FDF980C002DC3CC /* RecipeViewController.swift in Sources */,
 				F50DA03F1FCD1E98006B7C92 /* AppDelegate.swift in Sources */,
 				F50DA06E1FD66578006B7C92 /* RecipeManager.swift in Sources */,
 				F50DA05C1FD3EF61006B7C92 /* RecipeCell.swift in Sources */,
+				F5206E201FE51B7900744961 /* RecipePgData.swift in Sources */,
 				F50DA06C1FD66549006B7C92 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

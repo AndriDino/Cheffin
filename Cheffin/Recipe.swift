@@ -14,6 +14,7 @@ class Recipe: NSObject {
     var about: String
     var mainPhoto: UIImage
     var time: String
+
     
     
     init(recipe: String, about: String, time: String, photo: UIImage) {
